@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Zak Koshar's Resume</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- I built this myself -->
+
+<!-- container around the whole document -->
+<div id="container">
+
+  <!-- name -->
+  <div id="name">Zak Koshar</div>
+
+  <!-- photo -->
+  <!-- <img src="koshar.jpg" width="300px"> -->
+
+  <!-- contact details -->
+  <ul class="menu">
+    <li><a href="mailto:zkoshar0725@gmail.com">Email me</a></li>
+    <li><a href="https://x.com/ZakKoshar">Twitter</a></li>
+    <li><a href="https://github.com/ZakKoshar/zkoshar-jour352">Git Hub</a></li>
+  </ul>
+
+  <!-- title -->
+  <div id="title">Aspiring Sports Broadcaster | Journalism Student</div>
+
+  <!-- experience section -->
+  <div class="sectionheader">Experience:</div>
+
+  <!-- first job -->
+  <div class="jobtitle">Sports Broadcaster / Play-by-Play Announcer</div>
+  <div class="organization">WMUC Sports, University of Maryland</div>
+  <div class="date">2026-present</div>
+  <p class="description">Called a University of Maryland field hockey game for WMUC, gaining live collegiate
+  broadcasting experience. Provided play-by-play commentary while developing skills in
+  preparation, game awareness, communication, and delivering clear commentary in a
+  live sports environment.</p>
+
+  <!-- second job -->
+  <div class="jobtitle">Part-Time High School Announcer</div>
+  <div class="organization">Freelance</div>
+  <div class="date">2022-2025</div>
+  <p class="description">Called high school basketball games primarily to develop broadcasting experience and
+  play-by-play skills. Also announced football and soccer games and attended junior
+  varsity baseball games to practice live commentary. Focused on improving public
+  speaking, game awareness, preparation, and real-time communication.</p>
+
+  <!-- third job -->
+  <div class="jobtitle">Summer Camp Counselor</div>
+  <div class="organization">Summer Camp</div>
+  <div class="date">Summer 2025</div>
+  <p class="description">Supervised and mentored campers throughout daily activities while maintaining a safe,
+  engaging, and positive environment. Led games, team-building exercises, and outdoor
+  activities while promoting leadership, responsibility, and sportsmanship. Recognized as
+  Rookie of the Year for strong leadership, reliability, and positive impact.</p>
+
+  <!-- education section -->
+  <div class="sectionheader">Education:</div>
+  <ul id="degrees">
+    <li>Bachelor of Arts, Journalism, University of Maryland, College Park, Expected 2029</li>
+  </ul>
+
+  <!-- skills section -->
+  <div class="sectionheader">Skills:</div>
+  <ul id="do">
+    <li><strong>Sports broadcasting and play-by-play;</strong> Experience calling collegiate and high
+    school sporting events.</li>
+    <li><strong>News writing and reporting;</strong> Experience developing accurate, professional
+    journalistic stories through UMD journalism coursework.</li>
+    <li><strong>Public speaking;</strong> Strong experience communicating clearly and confidently in live
+    broadcasting and presentation settings.</li>
+    <li><strong>Sports analysis and game awareness;</strong> Developed through broadcasting
+    experience and years of competitive baseball.</li>
+    <li><strong>Video editing and multimedia storytelling;</strong> Experience with Adobe Premiere and
+    digital journalism projects.</li>
+    <li><strong>Data analysis and SQL;</strong> Experience with PostgreSQL, SQL queries, joins,
+    aggregations, and ranking functions.</li>
+  </ul>
+
+</div>
+
+</body>
+</html>
