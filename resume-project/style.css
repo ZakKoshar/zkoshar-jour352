@@ -1,0 +1,104 @@
+/* styles for my resume */
+
+/* default font for the whole page */
+body {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-display: swap;
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
+}
+
+/* wrapper around the whole document */
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+/* banner name at top */
+#name {
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #33485e;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+/* contact info list at top */
+.menu {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* contact items sit side by side */
+.menu li {
+  display: inline;
+}
+
+/* title under the contact info */
+#title {
+  color: #33485e;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+/* section titles */
+.sectionheader {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #33485e;
+  color: #fff;
+  margin: 20px 0 10px 0;
+  width: 70%;
+  min-width: 300px;
+  padding-left: 20px;
+}
+
+/* job titles */
+.jobtitle {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/* job organizations */
+.organization {
+  font-size: 1.25em;
+}
+
+/* job dates */
+.date {
+  font-size: 1em;
+  font-style: italic;
+  margin: 2px 0 0 0;
+}
+
+/* paragraph descriptions */
+.description {
+  margin: 10px 0;
+}
+
+/* education list */
+#degrees {
+  margin: 5px 0 0 0;
+}
+
+/* skills list */
+#do {
+  margin: 5px 0 0 0;
+}
+
+/* mission statement at top */
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto 30px auto;
+}
