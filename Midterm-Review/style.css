@@ -1,1 +1,209 @@
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fbfaf6;color:#192b30}.masthead{background:#123b3b;color:#fff;text-align:center;padding:28px 20px 23px;border-bottom:6px solid #dbb76d}.brand-mark{font-family:Helvetica,Arial,sans-serif;font-size:clamp(27px,5vw,47px);font-weight:800;letter-spacing:.13em}.brand-tagline{font:12px Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.2em;margin-top:9px;color:#e3e9e3}main{max-width:950px;margin:auto;padding:50px 22px}article{margin:auto}.kicker{font:700 12px Helvetica,Arial,sans-serif;letter-spacing:.16em;color:#b05b37}.kicker span{color:#aab3ad}h1{font-family:Helvetica,Arial,sans-serif;font-size:clamp(36px,6vw,61px);line-height:1.1;letter-spacing:-.035em;margin:17px 0 18px;max-width:850px}.deck{font:21px/1.5 Georgia,serif;color:#52615f;max-width:700px;margin:0 0 24px}#byline{font-family:Helvetica,sans-serif;font-size:14px;font-style:italic;color:#263e42}.dateline{font:12px Helvetica,Arial,sans-serif;color:#697a7b;margin-top:8px;margin-bottom:29px}.hero{margin:0 0 42px}figure{margin:32px 0}figure img{display:block;width:100%;height:auto;border-radius:3px}figcaption{font:12px/1.5 Helvetica,Arial,sans-serif;color:#566566;margin-top:9px}figcaption span{color:#8b9798}.story{max-width:690px;margin:auto}.story p{font-family:Georgia,serif;font-size:13px;line-height:1.9;margin:0 0 19px}.story h2{font:700 26px/1.2 Helvetica,Arial,sans-serif;margin:42px 0 22px}.story figure{margin:35px -35px}.story blockquote{font:700 29px/1.35 Helvetica,Arial,sans-serif;border-left:5px solid #c88b53;padding:9px 0 9px 25px;margin:37px 0;color:#174c4c}.story blockquote cite{display:block;font:italic 13px Helvetica,Arial,sans-serif;color:#627473;margin-top:15px}.read-more{border-top:2px solid #123b3b;max-width:690px;margin:55px auto 20px;padding-top:18px}.read-more h2{font:700 25px Helvetica,Arial,sans-serif}.read-more ul{padding-left:22px}.read-more li{font:15px/1.6 Helvetica,Arial,sans-serif;margin:12px 0}.read-more a{color:#176267;text-decoration-thickness:1px;text-underline-offset:3px}.read-more a:hover{color:#b05b37}footer{text-align:center;background:#123b3b;color:#fff;font:11px/1.6 Helvetica,Arial,sans-serif;letter-spacing:.08em;padding:24px 15px}footer span{color:#dbb76d}@media(max-width:760px){main{padding:34px 18px}.story figure{margin:27px 0}.story blockquote{font-size:24px}.deck{font-size:18px}}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #fbfaf6;
+    color: #192b30;
+}
+
+.masthead {
+    background: #123b3b;
+    color: #fff;
+    text-align: center;
+    padding: 28px 20px 23px;
+    border-bottom: 6px solid #dbb76d;
+}
+
+.brand-mark {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: clamp(27px, 5vw, 47px);
+    font-weight: 800;
+    letter-spacing: .13em;
+}
+
+.brand-tagline {
+    font: 12px Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin-top: 9px;
+    color: #e3e9e3;
+}
+
+main {
+    max-width: 950px;
+    margin: auto;
+    padding: 50px 22px;
+}
+
+article {
+    margin: auto;
+}
+
+.kicker {
+    font: 700 12px Helvetica, Arial, sans-serif;
+    letter-spacing: .16em;
+    color: #b05b37;
+}
+
+.kicker span {
+    color: #aab3ad;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: clamp(36px, 6vw, 61px);
+    line-height: 1.1;
+    letter-spacing: -.035em;
+    margin: 17px 0 18px;
+    max-width: 850px;
+}
+
+.deck {
+    font: 21px/1.5 Georgia, serif;
+    color: #52615f;
+    max-width: 700px;
+    margin: 0 0 24px;
+}
+
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #263e42;
+}
+
+.dateline {
+    font: 12px Helvetica, Arial, sans-serif;
+    color: #697a7b;
+    margin-top: 8px;
+    margin-bottom: 29px;
+}
+
+.hero {
+    margin: 0 0 42px;
+}
+
+figure {
+    margin: 32px 0;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+figcaption {
+    font: 12px/1.5 Helvetica, Arial, sans-serif;
+    color: #566566;
+    margin-top: 9px;
+}
+
+figcaption span {
+    color: #8b9798;
+}
+
+.story {
+    max-width: 690px;
+    margin: auto;
+}
+
+.story p {
+    font-family: Georgia, serif;
+    font-size: 13px;
+    line-height: 1.9;
+    margin: 0 0 19px;
+}
+
+.story h2 {
+    font: 700 26px/1.2 Helvetica, Arial, sans-serif;
+    margin: 42px 0 22px;
+}
+
+.story figure {
+    margin: 35px -35px;
+}
+
+.story blockquote {
+    font: 700 29px/1.35 Helvetica, Arial, sans-serif;
+    border-left: 5px solid #c88b53;
+    padding: 9px 0 9px 25px;
+    margin: 37px 0;
+    color: #174c4c;
+}
+
+.story blockquote cite {
+    display: block;
+    font: italic 13px Helvetica, Arial, sans-serif;
+    color: #627473;
+    margin-top: 15px;
+}
+
+.read-more {
+    border-top: 2px solid #123b3b;
+    max-width: 690px;
+    margin: 55px auto 20px;
+    padding-top: 18px;
+}
+
+.read-more h2 {
+    font: 700 25px Helvetica, Arial, sans-serif;
+}
+
+.read-more ul {
+    padding-left: 22px;
+}
+
+.read-more li {
+    font: 15px/1.6 Helvetica, Arial, sans-serif;
+    margin: 12px 0;
+}
+
+.read-more a {
+    color: #176267;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+.read-more a:hover {
+    color: #b05b37;
+}
+
+footer {
+    text-align: center;
+    background: #123b3b;
+    color: #fff;
+    font: 11px/1.6 Helvetica, Arial, sans-serif;
+    letter-spacing: .08em;
+    padding: 24px 15px;
+}
+
+footer span {
+    color: #dbb76d;
+}
+
+@media (max-width: 760px) {
+    main {
+        padding: 34px 18px;
+    }
+
+    .story figure {
+        margin: 27px 0;
+    }
+
+    .story blockquote {
+        font-size: 24px;
+    }
+
+    .deck {
+        font-size: 18px;
+    }
+}
