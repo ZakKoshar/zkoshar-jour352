@@ -1,0 +1,17 @@
+/* Reusable text styles and graphical elements for JOUR352 */
+:root { --text: #212529; --caption: #8b9299; --paper: #fff; }
+html { scroll-behavior: smooth; }
+body { background: var(--paper); color: var(--text); }
+.story-header { padding: 36px 0 54px; }
+h1, h2 { font-family: Arial, Helvetica, sans-serif; font-weight: 750; }
+h1 { font-size: clamp(2.4rem, 5vw, 3.7rem); margin-bottom: 22px; }
+h2 { font-size: 2.15rem; margin-bottom: 28px; }
+.byline { font: 1rem Arial, sans-serif; }
+article > p, article section > p { font: 1.12rem/1.9 Georgia, 'Times New Roman', serif; }
+.story-figure { max-width: 880px; margin: 42px auto 40px; }
+.story-figure img { display: block; width: 100%; height: auto; background: #101014; }
+figcaption { font: .88rem/1.5 Arial, sans-serif; color: var(--caption); margin-top: 8px; }
+.three-columns { margin: 32px 0 48px; font: 1rem Georgia, serif; }
+footer { background: #f8f9fa; color: #6c757d; padding: 25px 12px; margin-top: 50px; font-size: .85rem; }
+footer p { margin: 0; }
+@media(max-width: 576px) { .story-header { padding: 32px 0; } h2 { font-size: 1.7rem; } article > p, article section > p { font-size: 1rem; } }
